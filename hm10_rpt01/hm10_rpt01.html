@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!-- 이 부분은 주석문입니다. 웹 브라우저는 주석을 화면에 출력하지 않습니다. -->
+<html>
+	<head>
+		<!-- 문서제목, 자바스크립트 코드, CSS 스타일 정의, 메타데이터정의 -->
+		<meta charset="utf-8">
+		<title>hm10 : 실습프로젝트 1</title>
+		<style>
+			body{
+				background-color : rgb(241, 232, 223);
+				margin-left: 30px;
+				margin-right: 30px;
+			}
+			h1 { 
+				text-align:center; 
+				color:#000; 
+				font-size:30px;
+			}
+
+			/* 하이퍼링크 색안보이게 해줌  */
+ 			a:visited,a:link { color: black; text-decoration: none;}
+			a:hover { color: blue; text-decoration: underline;}
+			
+			iframe{
+				background-color: white;
+				border: 2px solid black;
+				text-align: center;
+			}
+		</style>
+		<script></script>
+	</head>
+
+	<body>
+		<hr width = "72%" color = "black">
+		
+		<!-- 홈 리프레쉬 대용으로 다시 불러오기 -->
+		<h1><a href="hm10_main.html" target="right">내가 누구?</a></h1>
+
+
+		<hr width = "72%" color = "black">
+		
+		<p align = "middle">
+			<iframe src="hm10_sitelist.html" name="left" width="300" height="780"></iframe>
+			<iframe src="hm10_main.html" name="right" width="1000" height="780" ></iframe>
+		</p>
+	
+	    <hr width = "72%" color = "black">
+	</body>
+
+</html>
+
