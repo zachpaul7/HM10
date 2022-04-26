@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<style>
+            body{
+				margin:0;
+				padding:0;
+				overflow: hidden;
+				background-color: moccasin;
+			}
+			div.image{
+				position: absolute;
+				top: 50%;
+				left: 35%;
+				transform: translate(-50%,-50%);
+			}
+			img{
+				border-radius: 15px;
+				width:450px; 
+				height:650px; 
+			}
+			div.list{
+				position: absolute;
+				top: 50%;
+				left: 65%;
+				transform: translate(-50%,-50%);
+			}
+			div>ul{
+				list-style: none;
+			}
+			li{
+				margin:20px;
+				font-weight: bold;
+			}
+        </style>
+		<script></script>
+	</head>
+
+	
+	<body>
+		<div class="image">
+			<img src="media/Everytime.png" alt="에타시간표">
+		</div>
+
+		<div class="list">
+			<ul>
+				<li style="list-style:none;">~ 시간표 ~</li>
+				<br>
+				<li>월요일
+					<ul>
+						<li>AM 11:00 ~ PM 01:00 : 글쓰기 치료</li>
+						<li>PM 02:00 ~ PM 06:00 : 드론 시뮬레이션 기초</li>
+					</ul>
+				</li>
+				<li>화요일
+					<ul>
+						<li>PM 02:00 ~ PM 06:00 : 시뮬레이션 개론</li>
+						
+					</ul>
+				</li>
+				<li>수요일
+					<ul>
+						<li>AM 11:00 ~ PM 01:00 : 파이썬 활용</li>
+						<li>PM 02:00 ~ PM 06:00 : HTML 5</li>
+					</ul>
+				</li>
+				<li>목요일
+					<ul>
+						<li>AM 09:00 ~ PM 01:00 : JAVA 프로그래밍 1</li>
+						<li>PM 02:00 ~ PM 06:00 : 아두이노 기초</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>

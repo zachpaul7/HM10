@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="hm10_formregi.css">
+</head>
+<body>
+    <div class="container1">
+		<form>
+			<fieldset style="border: none;">
+				<h3>회원가입</h3>
+				<div class="inputBox">
+					<span><label for="putid">아이디 설정</label></span>
+					<div class="box">
+                        <input type="text" id="putid" maxlength="12" placeholder="아이디입력 (12자리)">
+					</div>
+				</div>
+				<div class="inputBox">
+					<span><label for="putpassword">비밀번호 설정</label></span>
+					<div class="box">
+                        <input type="password" id="putpassword" maxlength="12" placeholder="비밀번호입력 (12자리)">
+					</div>
+				</div>
+                <div class="inputBox">
+					<span><label for="NickName">닉네임 설정</label></span>
+					<div class="box">
+                        <input type="text" id="NickName" maxlength="8" placeholder="닉네임입력 (8자리)">
+					</div>
+				</div>
+                <div class="inputBox">
+					<span><label for="email">이메일 설정</label></span>
+					<div class="box">
+                        <input type="email" id="email" placeholder="example@ac.kr" style="text-transform: lowercase;">
+					</div>
+				</div>
+			</fieldset>
+		</form>
+	</div>
+    <div class="container2">
+		<form>
+			<fieldset style="border: none;">
+				<h3>레이싱 동호회 가입 신청서</h3>
+				<div class="checkBox">
+					<span><label for="class">나의 레이싱 실력?</label></span>
+					<div class="box">
+                        <select  id="class" style="text-align: center;"> 
+                            <option>------</option>
+                            <option>해본적없음</option>
+                            <option>초 수</option>
+                            <option>중 수</option>
+                            <option>고 수</option>
+                            <option>레 이 서</option>
+                        </select>
+					</div>
+				</div>
+				<div class="checkBox">
+					<span><label for="gear">나의 장비는?</label></span>
+					<div class="box">
+                        <select  id="gear" style="text-align: center;"> 
+                            <option>------</option>
+                            <option>없다</option>
+                            <option>키보드 / 마우스</option>
+                            <option>게임 패드</option>
+                            <option>레이싱 휠</option>
+                        </select>
+					</div>
+				</div>
+
+                <h3>- 플레이 하고싶은 게임은? -</h3>
+                <div class="checkBox">
+					<span><label for="game01"><input type="checkbox" id="game01">F1 2021</label></span>
+			
+                    <span><label for="game02"><input type="checkbox" id="game02">그란투리스모</label></span>
+					
+                    <span><label for="game03"><input type="checkbox" id="game03">아이레이싱</label></span>
+					
+                    <span><label for="game04"><input type="checkbox" id="game04">아세토코르사</label></span>
+
+					<span><label for="game04"><input type="checkbox" id="game04">포르자 호라이즌</label></span>
+					
+                    <span><label for="game05"><input type="checkbox" id="game05">기타(직접입력)<input type="text" id="game05" placeholder="ex)마리오카트" style="margin-left: 10px;"></label></span>
+				</div>
+                <div class="inputBox" >
+					<div class="box1" >
+						<button type="button" onclick="location.href='hm10_form.html' ">Finish</button>
+					</div>
+				</div>
+			</fieldset>
+		</form>
+	</div>
+</body>
+</html>
