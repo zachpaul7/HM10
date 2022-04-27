@@ -12,7 +12,7 @@
 	- hm10_redwoods.html : html5 강의실 홈페이지
 	- hm10_form.html : 동호회 가입 로그인 화면
 		- hm10_formregi.html : 동호회 가입 페이지
-		- hm10_formhome.html : 동호회 가입 축하 화면
+		- hm10_formfome.html : 동호회 가입 축하 화면
 	- hm10_card.html : 크리스마스 카드
 	- hm10_redwoods.html : 강의 홈페이지
 	
