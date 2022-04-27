@@ -29,3 +29,5 @@
 - div 태그
 - label 태그
 - @keyframe
+- 구글 폰트 사용
+	- https://fonts.google.com/?subset=korean
