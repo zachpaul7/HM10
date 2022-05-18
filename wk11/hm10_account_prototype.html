@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!-- 이 부분은 주석문입니다. 웹 브라우저는 주석을 화면에 출력하지 않습니다. -->
+<html>
+
+<head>
+    <!-- 문서제목, 자바스크립트 코드, CSS 스타일 정의, 메타데이터정의 -->
+    <meta charset="utf-8" />
+    <title>hmnn : Javascript object - Prototype</title>
+    <style></style>
+    <script>
+        // 프로토타입 Student 객체 작성
+        function Account(owner, code, balance) {
+            this.owner = owner;
+            this.code = code;
+            this.balance = balance;
+
+            this.inquiry = function () { return this.balance; }
+            this.deposit = function (money) { this.balance += money;}
+            this.withdraw = function (money) { 
+                this.balance -= money;
+                return money;
+            }
+
+        }
+    </script>
+</head>
+
+<body>
+    <!-- 문서의 본문 텍스트, 이미지, 테이블, 자바스크립트 코드, 동영상 등 -->
+    <h3>프로토타입으로 사용자 객체 만들기</h3>
+    <hr />
+    <script>
+        var account = new Account("황기태", "111",35000);
+
+        document.write("account: ");
+        document.write(account.owner + ",");
+        document.write(account.code + ",");
+        document.write(account.balance + "<br>");
+
+        account.deposit(10000);
+        document.write("10000원 입금후 잔액은" + account.inquiry() + "<br>");
+        account.withdraw(5000);
+        document.write("5000원 인출 후 잔액은 " + account.inquiry() + "<br>");
+
+        document.write("<br><hr><br>");
+
+        var hm10 = new Account("박신영","20192576", 3402200);
+
+        document.write("hm10 : ");
+        document.write(hm10.owner + ", ");
+        document.write(hm10.code + ", ");
+        document.write(hm10.balance + "<br><br>");
+
+        hm10.deposit(100000);
+        document.write("100000원 입금후 잔액은 " + hm10.inquiry() + "원 입니다." + "<br>");
+        hm10.withdraw(24000);
+        document.write("24000원 출금후 잔액은 " + hm10.inquiry() + "원 입니다." + "<br>");
+        hm10.withdraw(320000);
+        document.write("320000원 출금후 잔액은 " + hm10.inquiry() + "원 입니다." + "<br>");
+    </script>
+
+</body>
+
+</html>
