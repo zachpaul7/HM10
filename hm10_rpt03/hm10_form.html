@@ -1,0 +1,183 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+    <title>HM10:나는 누구인가?</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="css/main.css" />
+    <style>
+        #main{
+            width: 30%;
+            margin:3em 35% 7em 35%;
+            /* background-color: red; */
+        }
+        p{
+            font-size: 1.25em; 
+            margin:0px;
+        }
+        footer a{
+             margin:0 2em 0 2em;
+        }
+        .inputBox{
+            margin-bottom: 2em;
+        }
+        hr{
+            background-color: black;
+            position: relative;
+            display: block;
+            border: 0;
+            top: 0em;
+            margin: 0;
+            height: 1px;
+            border-top: solid 1px rgba(128, 128, 128, 0.2);
+            border-bottom: solid 1px rgba(128, 128, 128, 0.2);
+        }
+        #banner{
+            background-color: moccasin;
+        }
+        pre{
+            font-weight: 600;
+        }
+
+    </style>
+</head>
+
+<body id="home" class="homepage is-preload">
+
+    <div id="page-wrapper">
+        <div id="header">
+            <div class="inner">
+                <header>
+                    <h1><a href="hm10_rpt03.html" id="logo">레이싱게임 동아리</a></h1>
+                    <hr />
+                    <p></p>
+                </header>
+                <footer>
+                    <a href="#banner" class="button circled scrolly">소개</a>
+                    <a href="#banner1" class="button circled scrolly">로그인</a>
+                  </footer>
+            </div>
+
+            <nav id="nav">
+                <ul>
+                    <li><a href="hm10_rpt03.html">Home</a></li>
+                    <li>
+                        <a>프로필</a>
+                        <ul>
+                            <li><a href="hm10_info.html">자기소개</a></li>
+                            <li><a href="hm10_weekly.html">일정표</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a>Best 3</a>
+                        <ul>
+                            <li><a href="hm10_bestmovie.html">Best 3 영화</a></li>
+                            <li><a href="hm10_best3music.html">Best 3 음악</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a>동호회</a>
+                        <ul>
+                            <li><a href="hm10_form.html">가입 안내문</a></li>
+                            <li><a href="hm10_formmain.html">가입 페이지</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="hm10_XmasCard.html">X-Mas 카드</a></li>
+                    <li><a href="hm10_program.html">계산기</a></li>
+                    <li>
+                        <a>홈페이지</a>
+                        <ul>
+                            <li><a href="https://www.inje.ac.kr/kor/main/main.asp">인제대 홈페이지</a></li>
+                            <li><a href="https://github.com/Redwoods/html5">강의 GitHub</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+        
+        <section id="banner">
+            <header>
+                <h3>레이싱게임 동아리!</h3>
+                <br>
+                    <article id="main" class="container special">
+                        <pre>
+레이싱 게임 동호회 절찬 모집중
+
+
+아래 조건을 만족하는 사람
+
+1. 레이싱 게임을 사랑하는 사람!
+
+2. 이번 기회에 레이싱 게임을 입문해보고 싶은 사람!
+
+3. 같이 즐겁게 소통하며 할 사람!
+
+4. 다른 사람들과의 경쟁을 통해 더욱 성장하고 싶은 사람!
+                        </pre>
+                    </article>
+                  
+            </header>
+        </section>
+    
+        <hr id="line">
+
+        <section id="banner1">
+            <header>
+                <article id="main" class="container special">
+                    <form>
+                        <fieldset style="border:none;">
+                            <h3 style="margin-bottom: 1em;">Log In</h3>
+                            <div class="inputBox">
+                                <span>아이디</span>
+                                <div class="box">
+                                    <div class="icon"></div>
+                                    <input type="text">
+                                </div>
+                            </div>
+                            <div class="inputBox">
+                                <span>비밀번호</span>
+                                <div class="box">
+                                    <div class="icon"></div>
+                                    <input type="password">
+                                </div>
+                            </div>
+                            <div class="inputBox" style="margin: 0;">
+                                <div class="box1" >
+                                    <button type="button" onclick="location.href='hm10_formhome.html' ">Sign In</button>
+                                </div>
+                            </div>
+                            <a class="register" href="hm10_formregi.html">register</a>
+                        </fieldset>
+                    </form>
+                </article>
+            </header>
+           
+            <footer>
+                <a href="#home" class="button circled scrolly">돌아가기</a>
+            </footer>
+        </section>
+
+        <div id="footer">
+            <div class="copyright">
+                <ul class="menu">
+                    <li>&copy; All rights reserved.</li>
+                    <li>Design: <a href="https://github.com/zachpaul7" target="_blank">GodZero</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.dropotron.min.js"></script>
+    <script src="js/jquery.scrolly.min.js"></script>
+    <script src="js/jquery.scrollex.min.js"></script>
+    <script src="js/breakpoints.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

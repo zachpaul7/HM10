@@ -1,0 +1,301 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+  <title>HM10:info</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="css/main.css" />
+  <style>
+    #main{
+      width: 30%;
+      margin:3em 35% 4em 35%;
+    }
+    hr{
+      background-color: black;
+      position: relative;
+      display: block;
+      border: 0;
+      top: 0em;
+      margin: 0;
+      height: 1px;
+      border-top: solid 1px rgba(128, 128, 128, 0.2);
+      border-bottom: solid 1px rgba(128, 128, 128, 0.2);
+    }
+    h3 {
+      margin-top: 0em;
+      margin-bottom: 1em;
+    }
+
+    p {
+      font-size: 1.25em;
+      margin: 1em;
+    }
+    footer a{
+      margin:0 2em 0 2em;
+    }
+    div.box {
+      background: white;
+      width: 93%;
+      height: 570px;
+      position: relative;
+      top: 10px;
+      right: -2%;
+      /* transform: translate(-50%,-50%); */
+      border-radius: 0 0 15px 15px;
+      box-shadow: 20px 20px rgba(0, 0, 0, .5);
+      border: 2px solid black;
+    }
+
+    table {
+      border-collapse: collapse;
+    }
+
+    td,
+    th {
+      text-align: center;
+      padding: 5px;
+      height: 40px;
+      width: 250px;
+    }
+
+    thead {
+      background: rgb(219, 219, 185);
+      border: 2px solid black;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+    }
+
+    tbody tr:nth-child(even) {
+      background: floralwhite;
+      
+    }
+  </style>
+</head>
+
+<body id="home" class="left-sidebar is-preload">
+  <div id="page-wrapper">
+    <div id="header">
+      <div class="inner">
+        <header>
+          <h1><a href="hm10_rpt03.html" id="logo">일정표</a></h1>
+        </header>
+        <footer>
+          <a href="#banner" class="button circled scrolly">평일</a>
+          <a href="#banner1" class="button circled scrolly">주말</a>
+        </footer>
+      </div>
+
+      <nav id="nav">
+        <ul>
+            <li><a href="hm10_rpt03.html">Home</a></li>
+            <li>
+                <a>프로필</a>
+                <ul>
+                    <li><a href="hm10_info.html">자기소개</a></li>
+                    <li><a href="hm10_weekly.html">일정표</a></li>
+                </ul>
+            </li>
+            <li>
+                <a>Best 3</a>
+                <ul>
+                    <li><a href="hm10_bestmovie.html">Best 3 영화</a></li>
+                    <li><a href="hm10_best3music.html">Best 3 음악</a></li>
+                </ul>
+            </li>
+            <li>
+                <a>동호회</a>
+                <ul>
+                    <li><a href="hm10_form.html">가입 안내문</a></li>
+                    <li><a href="hm10_formmain.html">가입 페이지</a></li>
+                </ul>
+            </li>
+            <li><a href="hm10_XmasCard.html">X-Mas 카드</a></li>
+            <li><a href="hm10_program.html">계산기</a></li>
+            <li>
+                <a>홈페이지</a>
+                <ul>
+                    <li><a href="https://www.inje.ac.kr/kor/main/main.asp">인제대 홈페이지</a></li>
+                    <li><a href="https://github.com/Redwoods/html5">강의 GitHub</a></li>
+                </ul>
+            </li>
+        </ul>
+      </nav>
+    </div>
+
+    <section id="banner">
+      <header>
+        <h3>평일 일정표</h3>
+        <article id="main" class="container special">
+          <div class="container">
+            <div class="box">
+              <table>
+                <thead>
+                  <tr>
+                    <th>시작 시간</th>
+                    <th>끝 시간</th>
+                    <th>일과</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th>AM 06:00</th>
+                    <th>AM 08:00</th>
+                    <th>기상 및 아침 식사</th>
+                  </tr>
+                  <tr>
+                    <th>AM 08:00</th>
+                    <th>AM 09:00</th>
+                    <th>등교 준비</th>
+                  </tr>
+                  <tr>
+                    <th>AM 09:00</th>
+                    <th>PM 01:00</th>
+                    <th>오전 강의 or 과제</th>
+                  </tr>
+                  <tr>
+                    <th>PM 01:00</th>
+                    <th>PM 02:00</th>
+                    <th>- 점심 시간 -</th>
+                  </tr>
+                  <tr>
+                    <th>PM 02:00</th>
+                    <th>PM 06:00</th>
+                    <th>오후 강의</th>
+                  </tr>
+                  <tr>
+                    <th>PM 06:00</th>
+                    <th>PM 07:00</th>
+                    <th>- 저녁 식사 -</th>
+                  </tr>
+                  <tr>
+                    <th>PM 07:00</th>
+                    <th>PM 07:30</th>
+                    <th>집 정리</th>
+                  </tr>
+                  <tr>
+                    <th>PM 07:30</th>
+                    <th>PM 10:00</th>
+                    <th>과제 및 개인 공부</th>
+                  </tr>
+                  <tr>
+                    <th>PM 10:00</th>
+                    <th>PM 10:30</th>
+                    <th>개인 정비</th>
+                  </tr>
+                  <tr>
+                    <th>PM 10:30</th>
+                    <th>다음날 기상</th>
+                    <th>취침</th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </article>
+      </header>
+    </section>
+    
+    <hr id="line">
+
+    <section id="banner1">
+      <header>
+        <h3>주말 일정표</h3>
+
+        <article id="main" class="container special">
+          <div class="container">
+            <div class="box">
+              <table>
+                <thead>
+                  <tr>
+                    <th>시작 시간</th>
+                    <th>끝 시간</th>
+                    <th>일과</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th>AM 07:00</th>
+                    <th>AM 09:00</th>
+                    <th>기상 및 아침 식사</th>
+                  </tr>
+                  <tr>
+                    <th>AM 09:00</th>
+                    <th>AM 10:00</th>
+                    <th>집 정리</th>
+                  </tr>
+                  <tr>
+                    <th>AM 10:00</th>
+                    <th>PM 01:00</th>
+                    <th>과제 및 공부</th>
+                  </tr>
+                  <tr>
+                    <th>PM 01:30</th>
+                    <th>PM 02:30</th>
+                    <th>- 점심 시간 -</th>
+                  </tr>
+                  <tr>
+                    <th>PM 02:30</th>
+                    <th>PM 04:00</th>
+                    <th>취미 활동</th>
+                  </tr>
+                  <tr>
+                    <th>PM 04:00</th>
+                    <th>PM 06:00</th>
+                    <th>과제 및 공부</th>
+                  </tr>
+                  <tr>
+                    <th>PM 06:00</th>
+                    <th>PM 07:00</th>
+                    <th>- 저녁 시간 -</th>
+                  </tr>
+                  <tr>
+                    <th>PM 07:00</th>
+                    <th>PM 08:00</th>
+                    <th>산책 / 휴식</th>
+                  </tr>
+                  <tr>
+                    <th>PM 08:00</th>
+                    <th>PM 10:00</th>
+                    <th>못한일 하기</th>
+                  </tr>
+                  <tr>
+                    <th>PM 10:00</th>
+                    <th>다음날 기상</th>
+                    <th>취침</th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </article>
+      </header>
+      <footer>
+        <a href="#home" class="button circled scrolly">돌아가기</a>
+    </footer>
+    </section>
+
+    <div id="footer">
+      <div class="copyright">
+        <ul class="menu">
+          <li>&copy; All rights reserved.</li>
+          <li>Design: <a href="https://github.com/zachpaul7" target="_blank">GodZero</a></li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.dropotron.min.js"></script>
+  <script src="js/jquery.scrolly.min.js"></script>
+  <script src="js/jquery.scrollex.min.js"></script>
+  <script src="js/breakpoints.min.js"></script>
+  <script src="js/util.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
